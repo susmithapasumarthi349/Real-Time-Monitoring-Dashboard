@@ -1,0 +1,39 @@
+# Real-Time Monitoring Dashboard - Python Dependencies
+
+# AWS CloudWatch SDK
+boto3>=1.28.0
+botocore>=1.31.0
+
+# GCP Cloud Monitoring SDK
+google-cloud-monitoring>=2.15.0
+google-cloud-logging>=3.5.0
+google-auth>=2.22.0
+
+# Azure Monitor SDK
+azure-mgmt-monitor>=6.0.0
+azure-mgmt-dashboard>=1.1.0
+azure-mgmt-resource>=23.0.0
+azure-identity>=1.14.0
+azure-mgmt-alertsmanagement>=1.0.0
+
+# Common dependencies
+python-dotenv>=1.0.0
+requests>=2.31.0
+pytz>=2023.3
+python-dateutil>=2.8.2
+
+# CLI and utilities
+click>=8.1.7
+colorama>=0.4.6
+tabulate>=0.9.0
+
+# Testing (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+moto>=4.2.0  # Mock AWS services
+
+# Development (optional)
+black>=23.7.0
+flake8>=6.1.0
+pylint>=2.17.5
+mypy>=1.5.0
